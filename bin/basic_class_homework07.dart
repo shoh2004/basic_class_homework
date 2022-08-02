@@ -4,18 +4,18 @@
 Create a "Person" class that has a name("name") and a age("age")
 create an object named "person" whose name is "Ali", age is "25"
 */
-class Person {
-  String name = 'ali';
-  int age = 25;
-  Person(String name, int age) {
-    this.name = name;
-    this.age = age;
+  class Person {
+  String name = 'name';
+  int age = 0;
+
+  Person(String a, int b) {
+    this.age = b;
+    this.name = a;
   }
 }
 
 void main() {
-  Person x = Person('ali', 25);
-  print(x.name);
-  print(x.age);
-}
-
+  Person q = Person('Ali', 12);
+  print(q.name);
+  print(q.age);
+} 
