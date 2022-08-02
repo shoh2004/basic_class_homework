@@ -5,7 +5,7 @@ Create a "Person" class that has a name("name") and a age("age")
 create an object named "person" whose name is "Ali", age is "25"
 */
   class Person {
-  String name = 'name';
+  String name = 'Ali';
   int age = 0;
 
   Person(String a, int b) {
@@ -15,7 +15,7 @@ create an object named "person" whose name is "Ali", age is "25"
 }
 
 void main() {
-  Person q = Person('Ali', 12);
+  Person q = Person('name', 25);
   print(q.name);
-  print(q.age);
+  print(q.age); 
 } 
