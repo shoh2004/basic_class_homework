@@ -8,5 +8,21 @@ Create an object named "p2" whose name is "Shavkat"
 Create an object named "p3" whose name is "Jasur"
 
 */
+class Person {
+  String name = '';
+  Person(name) {
+    this.name = name;
+  }
+}
 
-void main() {}
+void main() {
+  Person p1 = Person('shoh');
+  Person p2 = Person('begzod');
+  Person p3 = Person('murod');
+  print(p1.name);
+  print(p2.name);
+  print(p3.name);
+}
+
+
+ 
